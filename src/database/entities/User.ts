@@ -21,8 +21,8 @@ export class User {
   @Column()
   phone: string;
 
-  @Column()
-  user: string;
+  @Column("user")
+  username: string;
 
   @Column({nullable: true})
   photo: string;
